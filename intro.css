@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*
+
+*/
+
+*{
+}
+
+.first {
+    border: 10px solid white;
+    border-style: dashed;
+    text-align: center;
+}
+
+.one {
+    border: 10px solid white;
+    border-style: dashed;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 5%;
+}
+.two {
+    border: 10px solid white;
+    border-style: dashed;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 5%;   
+}
+
+.three {
+    border: 10px solid white;
+    border-style: dashed;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 5%;   
+}
+
+.four {
+    border: 10px solid white;
+    border-style: dashed;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 5%;   
+}
+
+.five {
+    border: 10px solid white;
+    border-style: dashed;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 5%;   
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+li{
+    list-style: none;
+    text-align: justify;
+    
+}
+
+/*미디어 쿼리*/
+/*미디어 종류 : all, print, screen, speach...*/
+@media screen and (max-width: 768px) {
+    body{
+        background-color: #fcc100;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        background-color: #9688d4;
+    }
+}
